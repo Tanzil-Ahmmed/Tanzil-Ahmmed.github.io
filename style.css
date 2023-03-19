@@ -213,3 +213,138 @@ footer {
     display: inline-block;
     padding: 0 20px;    
 }
+
+@media only screen and (max-width:1280px){
+    #pic {
+    margin-left: 12%;
+    }
+}
+@media only screen and (max-width:1024px){
+    #pic {
+    margin-left: 3%;
+    }
+}
+
+
+@media only screen and (max-width:650px){
+
+    .navbar ul li{
+    font-size: 1rem ;
+	}
+    #home{
+    height: 640px;
+	}
+    #home:before{
+    background-image: url(img/back.png);
+    height: 700px;
+	}
+}
+
+
+@media only screen and (max-width:600px){
+    #intro h2{
+    font-size: 2.9rem;
+    }
+    #intro{
+    padding: 10px;
+    }
+}
+
+@media only screen and (max-width:570px){
+
+    .navbar ul li{
+    font-size: 0.9 rem ;
+	}
+    #home{
+    height: 622px;
+	}
+    #intro h2{
+    font-size: 2.1rem;
+    }
+    #intro{
+    padding: 5px;
+    }
+}
+
+
+@media only screen and (max-width:500px){
+    
+
+.headings{
+    font-size: 2.rem;
+    margin: 20px 10px;
+    }
+    
+#home{
+    height: 722px;
+	}
+#home:before{
+    height: 800px;
+	}
+
+.main{ 
+	font-size:1rem;
+	}
+	
+#pic {
+	margin-left: 0;
+	}
+	
+#pic img{
+	width:350px;
+	}
+	
+.box3{
+	width:350px;
+    
+	}
+    #intro h2{
+    font-size: 2.8rem;
+    }
+    #intro{
+    padding: 5px;
+    font-size: 1.2rem;
+    }
+}
+
+
+@media only screen and (max-width:450px){
+    
+    .main{ 
+	left: 0 ; 
+	font-size:0.7rem;
+	}
+
+    #home{
+    height: 722px;
+	}
+}
+
+
+@media only screen and (max-width:280px){
+   
+    .navbar ul li{
+    font-size: 0.8rem ;
+	}
+    .main{ 
+	left: 0 ; 
+	font-size:0.6rem;
+	}
+    .headings{
+    font-size: 2rem;
+    }
+    #home{
+    height: 712px;
+	}
+    
+    #pic img{
+	width:280px;
+	}
+    #pic {
+	margin-left: 2px;
+	}
+    .box3{
+	width:260px;    
+	}
+    
+}
